@@ -2,3 +2,53 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --accent-color: #ff0070;
+  --text__shadow-color: #ff0070;
+  --content__title-color: #ff0070;
+  --has-content__color: #ff0070;
+  --text-color: #f1b2ce;
+  --head-foot-title-color: #db00ff;
+  --bg-color: #000028;
+  --title-text-color: #000028;
+  --hover-outline: rgba(255, 0, 112, 0.4);
+  --main-font: IBM Plex Mono, sans-serif;
+}
+
+:root.theme_light {
+  --accent-color: #ff8dcb;
+  --text__shadow-color: #ff0070;
+  --content__title-color: #353430;
+  --has-content__color: transparent;
+  --text-color: #353430;
+  --head-foot-title-color: #ffc2e6;
+  --bg-color: #fff1f7;
+  --title-text-color: #353430;
+  --hover-outline: rgba(50, 49, 45, 0.4);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --text__shadow-color: #ff0070;
+    --content__title-color: #353430;
+    --has-content__color: transparent;
+    --text-color: #353430;
+    --head-foot-title-color: #ffc2e6;
+    --bg-color: #fff1f7;
+    --title-text-color: #353430;
+    --hover-outline: rgba(50, 49, 45, 0.4);
+  }
+}
+
+:root.theme-dark {
+  --accent-color: #ff0070;
+  --text__shadow-color: #ff0070;
+  --content__title-color: #ff0070;
+  --has-content__color: #ff0070;
+  --text-color: #f1b2ce;
+  --head-foot-title-color: #db00ff;
+  --bg-color: #000028;
+  --title-text-color: #000028;
+  --hover-outline: rgba(255, 0, 112, 0.4);
+}
