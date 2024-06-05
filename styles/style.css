@@ -137,9 +137,14 @@
 .header__text {
   justify-self: flex-end;
   font-size: 18px;
+}
+
+.header_title-decor {
+  margin-block-start: 16vi;
   max-inline-size: 364px;
   max-block-size: 117px;
-  margin-block-start: 16vi;
+  background-color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .title-decor {
@@ -169,7 +174,11 @@
   .header__text {
     max-block-size: 114px;
     margin-block-start: 0;
-    margin-block-end: 3vi;
+  }
+
+  .header_title-decor {
+    margin-block-start: 0;
+    margin-block-end: 2vi;
   }
 
   .decorated-zone::after {
@@ -205,7 +214,7 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .header__text {
+  .header_title-decor {
     min-inline-size: 491px;
     max-block-size: 71px;
     margin-block-end: 2vi;
@@ -459,7 +468,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-block-size: 668px;
   margin: 10px;
 }
 
