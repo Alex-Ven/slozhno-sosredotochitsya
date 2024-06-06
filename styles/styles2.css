@@ -1,0 +1,27 @@
+.content {
+  display: grid;
+  gap: 20px;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 10px 10px 8vi 10px;
+}
+
+.content-section__why {
+  grid-template-columns: repeat(auto-fill, minmax(236px, 750px));
+  margin-block-start: 40px;
+}
+
+.content-section__what {
+  grid-template-rows: repeat(auto-fill, minmax(max-content, 1fr));
+  line-height: 23px;
+}
+
+
+.content-section__how {
+  grid-template-columns: repeat(auto-fill, minmax(236px, 750px));
+}
+
+.content-section__pictures {
+  grid-template-columns: repeat(auto-fit, minmax(229px, 700px));
+}
+
