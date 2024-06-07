@@ -37,7 +37,6 @@
   color: var(--text-color);
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -54,7 +53,7 @@
 }
 
 decorated-zone::after {
-  border-block-start: 1px solid var(--accent-color;
+  border-block-start: 1px solid var(--accent-color);
   border-inline-end: 1px solid var(--accent-color);
 }
 
@@ -72,7 +71,6 @@ decorated-zone::after {
   background-color: var(--has-content__color);
 }
 
-
 .header__theme-menu-item {
   color: var(--text-color);
 }
@@ -84,7 +82,6 @@ decorated-zone::after {
 .header__theme-menu-button_active {
   outline: 1px solid var(--accent-color);
 }
-
 
 .header__theme-menu-button:hover {
   outline: 1px solid var(--hover-outline);
@@ -116,7 +113,6 @@ decorated-zone::after {
 
 .content__title {
   color: var(--content__title-color);
-
 }
 
 .link-hover__underline:hover {
