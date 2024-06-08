@@ -62,7 +62,7 @@
   block-size: 9px;
   border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--has-content__color);
-  background-color: var(---has-content__color);
+  background-color: var(--has-content__color);
   inset-inline-end: 9px;
   inset-block-start: 18px;
 }
@@ -266,12 +266,8 @@
   line-height: 23.5px;
 }
 
-.link-hover__underline:hover {
+.link__text-shadow:hover {
   border-bottom: 1px solid var(--text-color, #f1b2ce);
-}
-
-.link-hover__bg:hover {
-  background-color: var(--accent-color);
 }
 
 .link__text-shadow:focus {
