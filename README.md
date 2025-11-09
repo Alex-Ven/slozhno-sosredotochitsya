@@ -79,7 +79,7 @@ open public/index.html
 ## Support the Project
 
 Like it? ⭐ Star the repo!  
-Have ideas? → [Open an Issue](https://github.com/Alex-Ven/look-out-the-window/issues)
+Have ideas? → [Open an Issue](https://github.com/Alex-Ven/slozhno-sosredotochitsya/issues)
 
 ---
 
